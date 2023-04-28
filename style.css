@@ -1,0 +1,128 @@
+
+body{
+    background-color: rgb(142, 237, 210);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 45px;
+    background-color: black;
+    color: #fffcfc;
+}
+nav ul li {
+    padding: 0 15px;
+} 
+.brand img{
+    width: 45px;
+}
+.container{
+    min-height: 65vh;
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image:url(data:image/jpeg;base64,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) ;
+    background-repeat: no-repeat;
+    background-size: 750px;
+    background-position: center;
+    width: 50%;
+} 
+.bottom{
+    position: sticky;
+    height: 75px;
+    background-color: rgb(16, 16, 16);
+    color: #ffffff;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+ }
+
+ #progressBar{
+    width: 180vw;
+}
+
+.icons{
+    margin-top: 5px;
+    margin-left: 0;
+    margin-right: 0;
+}
+ 
+.icons i {
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 55px;
+}
+.songItem{
+    display: flex;
+    background-color: rgb(5, 6, 5);
+    color: rgb(6, 6, 6);
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.songItem img{
+    width: 45px;
+    margin: 0 23px;
+}
+
+.timestamp{
+    margin: 0 23px;
+
+}
+
+audio{
+    color: black;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.songInfo{
+
+    position: absolute;
+
+    left: 10vw;
+
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+
+
+.songInfo img{
+
+    opacity: 0;
+
+    transition: opacity 0.4s ease-in;
+
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+
+    body {
+
+      background-color: red;
+
+    }
+
+  }
